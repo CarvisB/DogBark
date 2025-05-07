@@ -1,0 +1,45 @@
+.tabsContainer {
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 8px 16px;
+  margin-right: 4px;
+  background: #eee;
+  border: none;
+  border-bottom: 2px solid transparent;
+  transition: background 0.3s;
+}
+
+.tab:hover {
+  background: #ddd;
+}
+
+.activeTab {
+  background: #fff;
+  border-bottom: 2px solid #007acc;
+}
+
+.tabContent {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.tabContent > p {
+  animation: fadeIn 0.3s ease-in;
+}
