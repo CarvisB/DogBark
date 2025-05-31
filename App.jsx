@@ -286,7 +286,9 @@ function App() {
       <section id='home'>
         <Cara />
       </section>
+      <section id='about'>
         <Home />
+      </section>
       <section id='adoption'>
         <div className="sec-h">
           <h2>Adoption</h2>
