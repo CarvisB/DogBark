@@ -217,7 +217,7 @@ const Header = () => {
           </li>
           <li className='nav-item'>
             <i className="bi bi-info-circle nav-icon" />
-            <a href='about' className='nav-label'>About</a>
+            <a href='#about' className='nav-label'>About</a>
           </li>
         </ul>
       </nav>
@@ -286,7 +286,9 @@ function App() {
       <section id='home'>
         <Cara />
       </section>
+      <section id='about'>
         <Home />
+      </section>
       <section id='adoption'>
         <div className="sec-h">
           <h2>Adoption</h2>
